@@ -148,11 +148,22 @@
 
 
 
-function multiply (num1, num2) {
+// function multiply (num1, num2) {
 
-   let result = num1 * num2;
-   return result;
-}
+//    let result = num1 * num2;
+//    return result;
+// }
    
-let sum = multiply (7,8)
-console.log (sum)
+// let sum = multiply (7,8)
+// console.log (sum)
+
+
+
+let salary = 500;
+let tax = .2;
+let takehomesalary = salary * tax;
+console.log ('your take home salary is' + takehomesalary)
+
+
+
+
