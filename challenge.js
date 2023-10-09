@@ -159,11 +159,18 @@
 
 
 
-let salary = 500;
-let tax = .2;
-let takehomesalary = salary * tax;
-console.log ('your take home salary is' + takehomesalary)
+// let salary = 500;
+// let tax = .2;
+// let takehomesalary = salary * tax;
+// console.log ('your take home salary is' + takehomesalary)
 
 
+// if we have 1000 laptops and 1009 bags have how many bag remains if you put one laptop in each bag
+
+
+let totallaptops = 1000
+let totalbags = 1009
+let remainder = totalbags % totallaptops
+console.log(remainder)
 
 
